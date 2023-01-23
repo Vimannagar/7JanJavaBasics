@@ -6,6 +6,7 @@ public class IntegralDataType {
 		
 //		datatype variablename = value;
 		
+//		byte data type
 		byte b = 100;
 		
 		byte b1 = 126;
@@ -22,7 +23,29 @@ public class IntegralDataType {
 		System.out.println(b4);
 		
 		
+//		short data type
 		
+		short s = 10;
+		
+		System.out.println(s);
+		
+		
+		short s1 = 32767;
+		
+		short s2 = -32768;
+		
+		System.out.println(s2);
+		
+		
+//		int data type
+		
+		int i = 500;
+		
+		int i1 = 2147483647;
+		
+		int i2 = -2147483648;
+		
+		System.out.println(i2);
 		
 		
 	}
