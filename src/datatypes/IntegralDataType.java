@@ -47,6 +47,15 @@ public class IntegralDataType {
 		
 		System.out.println(i2);
 		
+//		long data type
+		
+		long l = 645454664546l; 
+		
+		long l1 = -323123123213213l;
+		
+		System.out.println(l);
+		
+		
 		
 	}
 
