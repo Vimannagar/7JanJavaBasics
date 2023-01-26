@@ -8,6 +8,8 @@ public class NonPrimitiveDataType {
 		
 		String s2 = "Corporate";
 		
+		String s3 = "9876543102";
+		
 //		concatination
 		System.out.println(s1+s2);//VelocityCorporate
 		
