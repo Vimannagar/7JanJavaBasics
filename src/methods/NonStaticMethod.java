@@ -15,6 +15,16 @@ public class NonStaticMethod {
 		
 	}
 	
+	public void uniqueIDGenerator()
+	{
+		String name = "Daniel";
+		
+		String id = name+"01";
+		
+		System.out.println(id);
+		
+	}
+	
 	
 	public static void main(String[] args) {
 		
@@ -26,6 +36,18 @@ public class NonStaticMethod {
 		
 		
 		nsm.areaCalulator();
+		
+		nsm.areaCalulator();
+		
+		nsm.uniqueIDGenerator();
+		
+		NonStaticMethod obj1 = new NonStaticMethod();
+		
+		obj1.areaCalulator();
+		
+		obj1.uniqueIDGenerator();
+		
+		
 		
 		
 	}

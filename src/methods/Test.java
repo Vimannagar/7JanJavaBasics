@@ -14,6 +14,14 @@ public class Test {
 		
 		StaticMethod.printHello();
 		
+//		Calling of non static method from Non static class
+		
+		NonStaticMethod nsm = new NonStaticMethod();
+		
+		nsm.areaCalulator();
+		
+		nsm.uniqueIDGenerator();
+		
 		
 		
 	}

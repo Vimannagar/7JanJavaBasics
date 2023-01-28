@@ -26,7 +26,7 @@ public class Calculator {
 		System.out.println(f);
 	}
 	
-	public static void multiplication()
+	public static  void multiplication()
 	{
 		int g = 10;
 		
