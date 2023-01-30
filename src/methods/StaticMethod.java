@@ -31,6 +31,10 @@ public class StaticMethod {
 		
 		printHello();
 		
+		StaticMethod sm = new StaticMethod();
+		
+		sm.printHello();
+		
 		
 		
 	}
