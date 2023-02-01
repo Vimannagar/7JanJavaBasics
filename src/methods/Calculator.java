@@ -59,6 +59,8 @@ public class Calculator {
 		
 		addition();//30
 		
+		Calculator.addition();
+		
 //		substraction
 		
 		substraction();//0

@@ -10,6 +10,8 @@ public class AssignmentOfString {
 		
 		int c = a+b;
 		
+		byte g = 50;
+		
 		
 	//	The addition of 1 and 5 is 6
 		

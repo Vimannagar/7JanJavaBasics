@@ -30,7 +30,7 @@ public class NonStaticMethod {
 		
 //		Creation of object
 		
-//		syntax - >  classname variablename = new Classname();
+//		syntax - >  classname referencevariablename = new Classname();
 		
 		NonStaticMethod nsm = new NonStaticMethod();
 		
