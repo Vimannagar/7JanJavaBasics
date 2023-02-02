@@ -10,6 +10,16 @@ public class VariableTest {
 		
 		System.out.println(A.bol);
 		
+//		calling of non static variable
+		
+		B b = new B();
+		
+		System.out.println(b.s);//abc
+		
+		String e = b.s+"def";
+		
+		System.out.println(e);//abcdef
+		
 		
 	}
 
