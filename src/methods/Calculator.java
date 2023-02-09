@@ -5,9 +5,9 @@ public class Calculator {
 	
 	public static void addition()
 	{
-		int a = 10;
+		int a = 30;
 		
-		int b = 20;
+		int b = 40;
 		
 		int c = a+b;
 		
