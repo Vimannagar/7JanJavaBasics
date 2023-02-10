@@ -19,6 +19,30 @@ public class NoReturnWithArg {
 		
 	}
 	
+	public static void substraction(int i, int j)
+	{
+		int k = i-j;
+		
+		System.out.println(k);
+		
+	}
+	
+	public static void multiply(int i, int j)
+	{
+		int k = i*j;
+		
+		System.out.println(k);
+		
+	}
+	
+	public static void division(double i, double j)
+	{
+		double k = i/j;
+		
+		System.out.println(k);
+		
+	}
+	
 	
 	public static void main(String[] args) {
 		
