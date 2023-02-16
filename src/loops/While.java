@@ -27,11 +27,7 @@ public class While {
 		
 //		WAP to print the table of 2 until 20 count
 		
-		
-		int a = 2356;
-		
-		a/10 = 235;		
-		a%10=6;
+	
 		
 		
 	}
