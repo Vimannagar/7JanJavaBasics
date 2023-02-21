@@ -7,7 +7,7 @@ public class B {
 	public B()
 	{
 		this("hello");
-		this (45.58, false);// this is not valid as we can call only one constructor inside another and that too in first line of the constructor only.
+//		this (45.58, false);// this is not valid as we can call only one constructor inside another and that too in first line of the constructor only.
 		System.out.println("Zero argument constructor");
 	
 	}

@@ -8,7 +8,7 @@ public class A {
 	{
 		
 		System.out.println("Zero argument constructor");
-		this("hello");// this is not valid as we are calling the constructor at other than 1 line
+//		this("hello");// this is not valid as we are calling the constructor at other than 1 line
 		
 		
 	}
