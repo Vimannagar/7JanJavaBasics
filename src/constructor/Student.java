@@ -4,6 +4,8 @@ public class Student {
 	
 	String name;
 	
+	
+	
 	int physicsmarks;
 	
 	static String classyear;
