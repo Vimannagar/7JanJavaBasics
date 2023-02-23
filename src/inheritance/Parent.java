@@ -1,6 +1,7 @@
 package inheritance;
 
-public class Parent  {
+public class Parent extends GrandParent
+{
 	
 	
 	public void home()
@@ -29,6 +30,10 @@ public class Parent  {
 		Child c = new Child();
 		
 		c.bike();
+		
+		Parent p = new Parent();
+		
+		p.farm();
 		
 		
 	}

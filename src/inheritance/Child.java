@@ -14,15 +14,17 @@ public class Child extends Parent
 		
 		Child c = new Child();
 		
-		c.home();
+		c.home();//parent class method
 		
-		c.car();
+		c.car();//parent class method
 		
-		c.furniture();
+		c.furniture();//parent class method
 		
-		surname();
+		surname();// parent class method
 		
-		c.bike();
+		c.bike();// child class method
+		
+		c.farm();//grandparent classs method
 		
 		
 	}
