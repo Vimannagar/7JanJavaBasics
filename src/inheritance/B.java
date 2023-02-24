@@ -18,6 +18,9 @@ public class B extends A{
 		System.out.println(country);//India
 		System.out.println(super.country);//USA
 		
+		System.out.println(A.country);//usa
+		System.out.println(B.country);// India
+		
 		System.out.println(super.b);// Pune
 	}
 	

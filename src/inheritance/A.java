@@ -3,7 +3,7 @@ package inheritance;
 public class A {
 	
 	int a  = 10;
-	String b = "Pune";
+public	String b = "Pune";
 	
 	static String d = "Mumbai";
 	String city = "Uri";
