@@ -28,6 +28,20 @@ public class AccessTestWithinPackage {
 		
 		a.m9();
 		
+		A.m10();
+		
+		
+//		Accessing variables:
+		
+		System.out.println(t4.a);//50- public variable so it can be accessible throughout the project
+		
+		System.out.println(Test4.s);// India - static default variable which can be accessible only within the package
+		
+//		System.out.println(t4.b);//b variable is private inside Test4 class hence it is not accessible here
+		
+		System.out.println(a.a);// can be accessible this protected variable inside the package same as default
+		
+		
 		
 	}
 

@@ -2,6 +2,11 @@ package accessmodifiers;
 
 public class Test4 {
 	
+	public int a = 50;
+	
+	static String s = "India";
+	
+	private boolean b = true;
 	
 	
 	public void m1()
@@ -45,6 +50,10 @@ public class Test4 {
 		
 		Test4 t4 = new Test4();
 		t4.m5();
+		
+		System.out.println(t4.b);
 	}
+	
+	
 	
 }

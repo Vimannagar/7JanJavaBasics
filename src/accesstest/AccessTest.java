@@ -1,11 +1,12 @@
 package accesstest;
 
+import accessmodifiers.A;
 import accessmodifiers.Test;
 //import accessmodifiers.Test3;
 import accessmodifiers.Test4;
 
 
-public class AccessTest {
+public class AccessTest  {
 	
 	
 	public static void main(String[] args) {
@@ -31,5 +32,14 @@ public class AccessTest {
 //		
 //		t4.m5();// private non static method cannot be accessible as it is private which can only be accessible within the class
 
+//		Accessing the variables 
+		
+		System.out.println(t4.a);//50- public variable so it can be accessible throughout the project
+		
+		
+//		System.out.println(Test4.s);// It is not accessible here as variable is default
+		
+
+		
 }
 }

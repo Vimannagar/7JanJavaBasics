@@ -4,7 +4,7 @@ public class ECons extends DCons
 {
 	public ECons(int i)
 	{
-		super(40);
+//		super(40);
 		System.out.println("ECons one argument constructor");
 	}
 	

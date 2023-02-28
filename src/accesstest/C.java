@@ -13,6 +13,12 @@ public class C extends B
 		
 		c.m9();
 		
+		B.m10();
+		
+		C.m10();
+		
+		
+		m10();
 		
 		
 	}
