@@ -18,6 +18,8 @@ public class Test2 extends Test
 		t2.m1();
 		
 		main();
+		
+		Test.main(args);
 	}
 	
 	public static void main()
