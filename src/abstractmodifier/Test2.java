@@ -2,9 +2,16 @@ package abstractmodifier;
 
 public  class  Test2 extends Test {
 
+	final static int a = 90;
+	
+	final int b = 93;
+	
+	
 
 	public void sendMoneyFromAccountToWallet() {
 		
+		final int c = 60;
+			
 		System.out.println("This is logic for Send money from account to wallet");
 	}
 
