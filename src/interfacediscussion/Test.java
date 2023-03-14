@@ -1,6 +1,6 @@
 package interfacediscussion;
 
-public abstract class Test implements Interface1
+public  class Test implements Interface1
 {
 
 
@@ -23,6 +23,13 @@ public abstract class Test implements Interface1
 		Test t = new Test();
 		
 		t.m1();
+		
+	}
+
+
+	@Override
+	public void m3() {
+		// TODO Auto-generated method stub
 		
 	}
 

@@ -9,6 +9,8 @@ public interface Interface1 {
 	
 	abstract void m3();
 	
+	public void m10();
+	
 	
 	
 }
