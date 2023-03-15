@@ -2,6 +2,11 @@ package interfacediscussion;
 
 public class Test3 {
 	
+	static int i = 50;
+	
+	static final int a = 90;
+	
+	
 	public void m1(Object o)
 	{
 		System.out.println("Object method");
