@@ -11,9 +11,10 @@ public interface InterfaceWithStatic {
 	
 	
 	
-	
+		
 	public static void main(String[] args) {
 		
+	
 		InterfaceWithStatic.m1();
 	
 		

@@ -22,4 +22,10 @@ public class D implements Interface1 {
 		
 	}
 
+	@Override
+	public void m10() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
