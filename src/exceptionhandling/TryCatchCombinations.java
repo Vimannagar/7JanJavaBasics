@@ -10,24 +10,34 @@ public class TryCatchCombinations {
 	
 	try {
 	
-		a[5] = 60;
-		int b = 10/0;
 		
+		int b = 10/0;
+		a[5] = 60;
 		
 		
 	System.out.println("a[5] line");
 	}
 	
+	
+
 	catch(ArrayIndexOutOfBoundsException e)
 	{
 		System.out.println("Exception arrived in try");
 		
 	}
 	
-	catch(ArithmeticException e)
+	catch(NullPointerException e)
 	{
 		System.out.println("Arithmetic exception arrived");
 	}
+	
+
+	catch(RuntimeException e)
+	{
+		System.out.println("Runtime exception");
+	}
+	
+	
 	
 	
 	
