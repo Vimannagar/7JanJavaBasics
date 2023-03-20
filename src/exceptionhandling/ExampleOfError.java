@@ -14,7 +14,7 @@ public class ExampleOfError {
 		System.out.println("m2 method");
 	}
 	
-	public static void main(String[] args) {
+	public final static void main(String[] args) {
 		
 	ExampleOfError ee = new ExampleOfError();
 	
