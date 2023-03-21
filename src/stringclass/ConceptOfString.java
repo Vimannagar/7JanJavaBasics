@@ -35,6 +35,18 @@ public class ConceptOfString {
 		System.out.println(ispointingsame2);
 		
 		
+		boolean ispoint3 = s2 == s4;
+		
+		System.out.println(ispoint3);
+		
+		
+		boolean iscontentsame = s2.equals(s4);
+		
+		System.out.println(iscontentsame);
+		
+		
+		
+		
 		
 	}
 
