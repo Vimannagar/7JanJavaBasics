@@ -96,8 +96,18 @@ public class MethodsFromStringClass {
 		
 		System.out.println(s18);//Punemahanagar
 			 
-			 
+		System.out.println("*********************************************");	
+		
+		
 //	Assignment: WAP to remove all the spaces from the String- this is String
+		
+		String s31 = "this is String";
+		
+		String s32 = s31.replace(" ", "");
+		
+		System.out.println(s32);
+		
+System.out.println("*******************************************************");		
 		
 		
 //	11. trim()
@@ -128,8 +138,22 @@ public class MethodsFromStringClass {
 		{
 			System.out.println(s24);
 		}
-
+		System.out.println("**************************************");
 //Assignment: WAP to reverse a String without reverse the individual word -"This is String";
+		
+		String s33 = "This is String";
+		
+		
+		String[] s34 = s33.split(" ");
+		
+		for(int i=s34.length-1; i>=0; i--)
+		{
+			System.out.print(s34[i]+" ");
+		}
+		
+		System.out.println("**************************************");
+		
+		
 		
 //14. startsWith(String s)
 		
@@ -163,8 +187,101 @@ public class MethodsFromStringClass {
 		
 		System.out.println(s30);//p
 		
+//	Converting non primitive to primitive data type
+		
+		String s35 = "10";
+		
+		int s36 = Integer.parseInt(s35);
+		System.out.println(s36+2);//12
 		
 		
+		String s37 = "56.23";
+		
+	double s38 = Double.parseDouble(s37);
+	
+	System.out.println(s38);//56.23
+	
+//	String s39 = "ten";
+//	
+//	int s40 = Integer.parseInt(s39);
+//	
+//	System.out.println(s40);// Exception - NumberFormatException as the given format is not int type
+	
+//	16 toCharArray()
+	
+	String s41 = "Pennsylvania";
+	
+	char[] s42 = s41.toCharArray();
+	
+	for(int z=0; z<s42.length; z++)
+	{
+		System.out.println(s42[z]);
+	}
+	
+	
+//	17 isAlphabetic()
+	
+	char s43 = 'a';
+	
+	boolean isalphabet = Character.isAlphabetic(s43);
+	
+	System.out.println(isalphabet);//true
+	
+	
+//	18. isDigit()
+	
+	char s44 = '7';
+	
+	boolean isnumber = Character.isDigit(s44);
+	
+	System.out.println(isnumber);//true
+	
+	
+//WAP to remove all the digits from the String- "He2l3l63o".
+	
+//WAP to remove all alphabet from the String- "He2l3l63o".	
+
+	
+//	Regular expression:
+	
+	
+// 19. replaceAll(String regex)
+	
+	
+	String s45 = "Spring";
+	
+	String s46 = s45.replaceAll("[A-Z]", "a");
+	
+	System.out.println(s46);//apring
+		
+	String s47 = s45.replaceAll("[A-D]", "a");
+	
+	System.out.println(s47);//Spring
+	
+	
+	String s48 = "Houston";
+	
+	String s49 = s48.replaceAll("[a-z]", "q");
+	
+	System.out.println(s49);//Hqqqqqq
+	
+	
+	String s50 = "Spring";
+	
+	String s51 = s50.replaceAll("[A-Za-k]", "!");
+	
+	System.out.println(s51);//!pr!n!
+	
+	
+	String s52 = "ta!m1p4a";
+	
+String s53 = s52.replaceAll("[^a-z]", "");
+
+System.out.println(s53);//tampa
+		
+	
+
+String s54 = "A2c4ce!ntu$re7";
 		
 	}
 	
