@@ -31,14 +31,14 @@ public class Child extends Parent {
 		Parent p = new Parent();
 		
 		
-		Child c1 = (Child)p;
+//		Child c1 = (Child)p;
 		
-		c1.bike();//Class Cast Exception
-		
-		
+//		c1.bike();//Class Cast Exception
 		
 		
-			
+		Child c3 = (Child)p1;// Down casting
+		
+		c3.bike();
 		
 		
 		

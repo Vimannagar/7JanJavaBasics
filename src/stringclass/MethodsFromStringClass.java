@@ -263,7 +263,9 @@ public class MethodsFromStringClass {
 		System.out.println(s56);// !$
 
 //WAP to remove the extra spaces from the String - "This    is         String"	
+	
 		
+//	WAP to remove the duplicates from an array-  int [] a = {12, 15, 9, 86, 95, 86, 12}
 	}
 
 }

@@ -4,7 +4,7 @@ public class SortingArrayAlternate {
 	
 	public static void main(String[] args) {
 		
-		int[] a = {1, 5, 3, 2, 6};
+		int[] a = {1, 0, 1, 1, 0};
 		
 		int var;
 		
