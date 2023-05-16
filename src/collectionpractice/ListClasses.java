@@ -78,8 +78,17 @@ public class ListClasses {
 		
 		System.out.println(value);
 		
+		al3.add(null);
 		
-			
+		al3.add(null);
+		System.out.println(al3);
+		
+		int lengthofal3 = al3.size();
+		
+		System.out.println(lengthofal3);
+	
+		
+				
 	
 	}
 	
